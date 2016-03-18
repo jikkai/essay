@@ -1,0 +1,22 @@
+# 站点配置
+site:
+  title: 'Essay'
+  subtitle: 'Morning bell is gone.'
+  author: '白熱大先生'
+  since: 2016
+
+# 文章配置
+posts:
+  - title: '图片测试'
+    date: '2016-03-13'
+    source: '[2016-03-13]图片测试'
+    url: '00001'
+  - title: '文章测试'
+    date: '2016-03-14'
+    source: '[2016-03-14]文章测试'
+    url: '00002'
+  - title: '列表测试'
+    date: '2016-03-15'
+    source: '[2016-03-15]列表测试'
+    url: '00003'
+per_page: 10
