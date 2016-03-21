@@ -32,6 +32,7 @@ export default {
         overflow: hidden;
         @media (max-width: 1170px) {
             min-width: 100%;
+            display: table;
         }
         section {
             width: 100%;
@@ -40,6 +41,10 @@ export default {
             color: #E8E8E8;
             background: rgba(255,255,255,.2);
             box-sizing: border-box;
+            @media (max-width: 1170px) {
+                vertical-align: middle;
+                display: table-cell;
+            }
             header {
                 width: 300px;
                 height: 300px;

@@ -41,6 +41,7 @@ export default {
         overflow-y: auto;
         @media (max-width: 1170px) {
             width: 100%;
+            overflow-y: inherit;
         }
         >ul {
             >li {
