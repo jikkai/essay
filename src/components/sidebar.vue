@@ -30,6 +30,9 @@ export default {
         background-size: cover;
         float: left;
         overflow: hidden;
+        @media (max-width: 1170px) {
+            min-width: 100%;
+        }
         section {
             width: 100%;
             height: 100%;

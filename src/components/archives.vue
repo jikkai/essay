@@ -39,6 +39,9 @@ export default {
         clear: right;
         box-sizing: border-box;
         overflow-y: auto;
+        @media (max-width: 1170px) {
+            width: 100%;
+        }
         >ul {
             >li {
                 margin-bottom: .6em;

@@ -43,6 +43,9 @@ article {
     clear: right;
     box-sizing: border-box;
     overflow-y: auto;
+    @media (max-width: 1170px) {
+        width: 100%;
+    }
     header {
         .meta {
             h1 {
