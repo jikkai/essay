@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --config build/webpack.dev.config.js",
-    "build": "webpack --progress --hide-modules --config build/webpack.prod.config.js",
-    "server": "node app.js"
+    "build": "webpack --progress --hide-modules --config build/webpack.prod.config.js"
   },
   "dependencies": {
     "jquery": "^2.2.1",
