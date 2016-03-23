@@ -29,8 +29,7 @@ export default {
             posts: [],
             per_page: 10
         };
-        let hash = location.hash;
-        let postUrl = hash.substring(hash.lastIndexOf('/') + 1);
+        let postUrl = this.$route.params.id;
         let posts = object.posts;
         let source = '';
         let title = '';

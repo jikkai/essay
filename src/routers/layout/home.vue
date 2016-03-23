@@ -40,12 +40,9 @@ export default {
             // 获取总页数
             let per = object.per_page;
             let total = Math.ceil(posts.length / per);
-
-            let hash = location.hash;
-            let now = hash.substring(hash.lastIndexOf('/') + 1);
+            let now = Number(this.$route.params.page);
 
             // 获取当前页文章列表
-            now = now.length === 0 ? 1 : Number(now);
             posts = posts.slice((now - 1) * per, now * per);
 
             return {
