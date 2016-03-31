@@ -12,7 +12,7 @@
     "js-yaml": "^3.5.4",
     "markdown": "^0.5.0",
     "typo.css": "^2.1.2",
-    "vue": "^1.0.17",
+    "vue": "^1.0.20",
     "vue-router": "^0.7.11"
   },
   "devDependencies": {

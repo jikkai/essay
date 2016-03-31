@@ -1,5 +1,5 @@
 <template>
-    <ul>
+    <ul v-if="data.total > 1">
         <li class="prev">
             <a v-if="data.now !== 1" v-link="{path: '/home/' + (data.now - 1)}">上一页</a>
             <a v-else class="disabled">上一页</a>
